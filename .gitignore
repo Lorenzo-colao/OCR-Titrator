@@ -1,0 +1,33 @@
+# Builds et exécutables
+dist/
+build/
+*.spec
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration machine et caches locaux
+settings.json
+tools_cache.json
+
+# Logs d'exécution et de compilation
+*.log
+build_log.txt
+err.txt
+startup_error_log.txt
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers d'IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de test temporaires
+PDF to exel test.py

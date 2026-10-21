@@ -1,0 +1,16 @@
+# Dépendances Python requises pour PDF → Excel | OCR Titrateur.
+# 
+# Installation :
+#     pip install -r requirements.txt
+customtkinter>=5.2.0
+Pillow>=10.0.0
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+pdf2image>=1.16.3
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+# Optionnel — améliore le prétraitement OCR :
+opencv-python>=4.8.0
+# Optionnel — drag & drop natif depuis l'explorateur :
+tkinterdnd2>=0.3.0
